@@ -12,6 +12,7 @@ Tecnologias utilizadas:
 - Coroutines (Programação Assíncrona)
 - ViewModel (Para a persistência de estado mesmo quando o aplicativo muda de orientação)
 - Paging 3 (Para o scroll infinito)
+- GitHub API (Fonte dos dados exibidos na aplicação)
 - Retrofit (Para o consumo da API)
 
 O caching em tempo de execução da aplicação é feito pela Paging 3.
