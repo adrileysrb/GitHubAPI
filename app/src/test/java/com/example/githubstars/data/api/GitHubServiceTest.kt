@@ -52,7 +52,7 @@ class GitHubServiceTest {
             enqueueMockResponse("testresponse.json")
             service.getRepositories("language:kotlin", "stars", 1)
             val request = server.takeRequest()
-            assertThat(request.path).isEqualTo("/search/repositories?q=language%3Akotlin&sort=starsss&page=1")
+            assertThat(request.path).isEqualTo("/search/repositories?q=language%3Akotlin&sort=stars&page=1")
         }
     }
 
