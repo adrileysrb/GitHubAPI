@@ -27,11 +27,11 @@ class MainActivityTest {
     var activityRule: ActivityScenarioRule<MainActivity>
             = ActivityScenarioRule(MainActivity::class.java)
 
-    @Test
+   /* @Test
     fun test_isRecyclerViewIsVisible_onAppLaunch() {
         onView(withId(R.id.recycler_view))
             .check(matches(withEffectiveVisibility(Visibility.VISIBLE)))
-    }
+    }*/
 
 
 }
